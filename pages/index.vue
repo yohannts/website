@@ -1,10 +1,16 @@
 <template>
   <div style="display: flex; flex-direction: column">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Neonderthaw&display=swap"
+      rel="stylesheet"
+    />
     <Navbar />
     <Main />
     <div style="margin: 0.5vw">
-      <h1 style="">Projets</h1>
-      <ul style="display: flex">
+      <h1 id="projects" style="">Projets</h1>
+      <ul style="display: flex;flex-wrap:wrap;">
         <li
           v-for="article of articles"
           :key="article.slug"
@@ -15,13 +21,14 @@
             :to="{ name: 'projets-slug', params: { slug: article.slug } }"
           >
             <div class="card">
-              <h2 class="casselecul">{{ article.title }}</h2>
+              <h2>{{ article.title }}</h2>
               <p>{{ article.description }}</p>
             </div>
           </NuxtLink>
         </li>
       </ul>
     </div>
+    <Contact/>
   </div>
 </template>
 <style>
@@ -34,24 +41,25 @@ h1 {
   height: 25vh;
   background-size: auto;
   background-size: cover;
-  padding: 1vw;
-}
-.card {
-  display:flex;
+  display: flex;
   flex-direction: column;
-  width:100%;
-  height: 100%;
   justify-content: center;
   align-items: center;
+  padding: min(1vw,1vh);
 }
-.card>h2 {
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1vw;
+  font-family: "Lato", cursive;
+}
+.card > h2 {
   font-size: 2.5vw;
-  color: black;
-  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
 }
-
 </style>
 <script>
 export default {
