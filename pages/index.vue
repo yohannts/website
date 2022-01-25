@@ -59,6 +59,12 @@ h1 {
 }
 .card > h2 {
   font-size: 2.5vw;
+  text-align:center;
+}
+.card > p {
+  font-size:1.5vw;
+  font-weight: 1000;
+  color:rgb(44, 21, 247);
 }
 </style>
 <script>

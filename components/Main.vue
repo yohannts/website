@@ -9,7 +9,7 @@
     />
     <div class="">
       <div style="border:solid grey; ridge;padding:2vw;border-radius:0vh;">
-        <h2 style="text-align:center;font-size:10vh;font-family:'Lato', cursive">
+        <h2 id="Yohann" style="text-align:center;font-size:10vh;font-family:'Lato', cursive">
           Yohann Tourdes
         </h2>
         <hr class="solid">
@@ -30,6 +30,9 @@
     border-top: 0.25vh solid #bbb;
     margin:0.5vh;
     width:90%;
+  }
+  #Yohann:hover {
+    color:red;
   }
 </style>
 <script>

@@ -15,7 +15,7 @@
     />
     <div class="">
       <div style="border:solid grey; ridge;padding:2vw;border-radius:0vh;">
-        <h2
+        <h1
           style="
             text-align: center;
             font-size: 10vh;
@@ -24,9 +24,9 @@
           id="contact"
         >
           Contact
-        </h2>
+        </h1>
         <hr class="solid" />
-        <p class="">
+        <p style="display:flex;justify-content:space-around;">
           <a href="mailto:yohann.tourdes@gmail.com">yohann.tourdes@gmail.com</a>
         </p>
         <hr class="solid" />
