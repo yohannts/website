@@ -15,7 +15,7 @@
             :to="{ name: 'projets-slug', params: { slug: article.slug } }"
           >
             <div class="card">
-              <h2>{{ article.title }}</h2>
+              <h2 class="casselecul">{{ article.title }}</h2>
               <p>{{ article.description }}</p>
             </div>
           </NuxtLink>
@@ -45,7 +45,11 @@ h1 {
   align-items: center;
 }
 .card>h2 {
-  font-size: 10vw;
+  font-size: 2.5vw;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 }
 
 </style>
