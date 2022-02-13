@@ -4,7 +4,7 @@ export default {
 
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: 'site_perso',
+        title: 'yohanntourdes.me, Bienvenue sur mon site !',
         htmlAttrs: {
             lang: 'en'
         },
