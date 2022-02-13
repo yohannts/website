@@ -1,7 +1,7 @@
 ---
 title: Compilateur de langage DECA
 description: Java
-image: img/Image.jpeg
+image: img/projetgl.jpeg
 ---
 
 ## Introduction
@@ -10,23 +10,9 @@ Le deca est un sous-langage de JAVA qui est utilisé que pour des fins éducativ
 
 ## Le projet en quelques chiffres
 
-Un mois de travail continu   
-pas moins de 10000 lignes de code brut, sans compter le travail hors code ainsi que le squelette fourni
-```java
-public class Hello {
-    int i;
-    public Hello(int i) {
-        this.i = i;
-    }
-}
-```
+Environ un mois de travail continu, soit quelques centaines d'heure sur ce projet   
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan arcu et feugiat ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris suscipit tortor vitae leo vehicula, non pharetra quam molestie. Nullam dictum mollis velit quis ultricies. Nulla ac massa vel leo varius accumsan et sit amet odio. Sed maximus ullamcorper eros, in accumsan erat facilisis ac. Vestibulum at tortor cursus, interdum nisl nec, fringilla lectus.
+Plus de 10 000 lignes de Java, sans compter les tests ainsi que les différentes documentations
 
-Maecenas dapibus ullamcorper nulla id consectetur. Morbi ut sodales massa, vel malesuada est. Proin vehicula ullamcorper erat a mollis. Fusce lorem risus, venenatis sed justo sed, varius molestie lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec porta lorem quis lobortis ornare. Nam eget fringilla ante. Proin dignissim lectus ligula, eu venenatis neque sagittis ut. Aliquam erat volutpat. Integer faucibus, sapien quis consequat posuere, lorem nisi auctor nunc, lobortis venenatis odio nisi in metus.
+Un travail non seulement orienté génie logiciel mais également ingéniérie eco-responsable, avec une grande justification des consommations, du point de vue conception et Utilisation client
 
-Sed aliquam a felis ac consequat. Curabitur at placerat sem. Proin vestibulum ex risus, nec convallis mauris tincidunt ut. Vivamus non porta ex. Pellentesque blandit ultrices eros, ut luctus risus ullamcorper non. Etiam quis congue lectus, sit amet scelerisque lectus. Integer tempor ante sit amet justo aliquet, vitae luctus libero posuere.
-
-Quisque egestas dui et magna ultricies fringilla. Sed at dui molestie, hendrerit eros vitae, convallis odio. Sed ornare nisl at orci consectetur varius. Donec id hendrerit tellus. Ut vel purus bibendum mauris vehicula luctus. Nunc tincidunt nulla sed lacus vehicula eleifend. Nunc et nunc vel est ullamcorper bibendum. Morbi sed dictum quam. Mauris gravida orci odio, vitae feugiat lacus dignissim quis. Pellentesque rutrum tellus eu suscipit imperdiet. Sed neque nisi, dictum at porta id, euismod id purus. Sed sodales laoreet ex eget posuere. Curabitur pharetra nisi sit amet erat dapibus, egestas ultricies nunc tincidunt. Praesent non ornare metus.
-
-Nullam malesuada orci id blandit volutpat. Donec dictum arcu ac ligula commodo viverra. Curabitur nec sodales risus. Nullam ut magna tincidunt, consectetur diam vel, euismod nisi. Aenean congue nulla ac leo laoreet, eu viverra purus posuere. Ut nec sapien rhoncus, vulputate quam eu, posuere lacus. Ut ac nunc in elit iaculis cursus eget non nisl. Duis euismod ac elit non dapibus. Pellentesque vitae auctor sapien, et egestas justo.

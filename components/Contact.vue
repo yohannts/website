@@ -1,11 +1,6 @@
 <template>
   <div
-    style="
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    "
+    style="display: flex;justify-content: center;align-items: center;height: 100vh;background-color:#AAA"
   >
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,15 +8,12 @@
       href="https://fonts.googleapis.com/css2?family=Lato&family=Neonderthaw&display=swap"
       rel="stylesheet"
     />
-    <div class="">
-      <div style="border:solid grey; ridge;padding:2vw;border-radius:0vh;">
+    <div class="" >
+      <div style="">
         <h1
-          style="
-            text-align: center;
-            font-size: 10vh;
-            font-family: 'Lato', cursive;
-          "
+          style="text-align: center;font-size: 10vh;font-family: 'Lato', cursive;text-shadow: 0.5vh 0.5vh 1px black;"
           id="contact"
+          class="gradient-text"
         >
           Contact
         </h1>
@@ -42,6 +34,9 @@
     </div>
   </div>
 </template>
+<style>
+
+</style>
 
 <script>
 export default {

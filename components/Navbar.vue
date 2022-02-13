@@ -1,14 +1,6 @@
 <template>
   <div
-    style="
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    height:8vh;
-    position: fixed;
-    background-color:rgba(255,255,255,0.7)
-    top: 0;
-    width: 100%;"
+    style="display:flex;justify-content:space-between;align-items:center;height:8vh;position: fixed;background-color:rgba(255,255,255,0.75);top: 0;width: 100%;"
     class="navbar"
   >
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,16 +17,9 @@
     />
     <NuxtLink :to="{ path: '/' }"
       ><h1
-        style="
-          display: flex;
-          align-items: center;
-          padding-left: 1vw;
-          font-weight:900;
-          font-size: 4vh;
-          font-family: 'Lato', cursive;
-        "
+        style="display: flex;align-items: center;padding-left: 1vw;font-weight:900;font-size: 4vh;font-family: 'Lato', cursive;"
       >
-        Yohanntourdes.me
+        yohanntourdes•me
       </h1></NuxtLink
     >
     <ul style="display: flex">
@@ -52,10 +37,10 @@
 </template>
 <style>
 .navbar>*>h1:hover {
-  color : red;
+  color : rgb(3, 44, 177);
 }
 .navbar>ul>*>li:hover {
-  color : red;
+  color : rgb(3, 44, 177);
 }
 </style>
 <script>
