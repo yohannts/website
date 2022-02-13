@@ -1,5 +1,7 @@
 # site_perso
 
+## Currently under construction (only french version, no english version for now)
+
 ## Build Setup
 
 ```bash
