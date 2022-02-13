@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/", {data:[{articles:[{slug:"projetgl",description:"Java",title:"Compilateur de langage DECA",image:"img\u002Fprojetgl.jpeg"}]}],fetch:{},mutations:void 0});
